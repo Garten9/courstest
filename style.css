@@ -18,7 +18,7 @@
     font-weight: bold;
 }
 
-p:hover
+p:hover, ul:hover
 {
     background-color: yellow;
     color: green;
@@ -61,6 +61,10 @@ ul
 {
     border: 8px #44F54A dashed;
     border-radius: 40px;
+}
+
+li
+{text-align: right;
 }
 
 img
