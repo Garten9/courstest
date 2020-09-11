@@ -24,13 +24,21 @@ h2
   font-size: 2em;
   font-style: italic;
   text-align: center;
+  background-color:rgba(240,96,204,0.9);
+  border: 8px #FF0000 ridge;
+  text-shadow: 5px 5px 5px green;
+  /*background-image: url(images/gandalf.gif);*/
 }
 
 .nul
 {
-    color: pink;
-    font-size: 4em;
+    color: rgb(240,96,204);
+    font-size: 5em;
     font-weight: bold;
+    background-color: #F59644;
+    opacity: 0.9;
+    border-bottom: 10px blue double;
+
 }
 
 .imgfloat
@@ -41,4 +49,28 @@ h2
 .clear
 {
     clear: both;
+}
+
+ul
+{
+    border: 8px #44F54A dashed;
+    border-radius: 40px;
+}
+
+img
+{
+    box-shadow: 50px 10px 20px maroon;
+}
+
+body
+{
+    background: url('images/champi.gif') fixed no-repeat top right,url(images/gandalf.gif) fixed;
+    /*background-image: url(images/gandalf.gif);*/
+    /*background-attachment: fixed;*/
+    /*background: url(images/gandalf.gif) fixed;*/
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    border: 20px #44A3F5 inset;
+    border-radius: 50px;
 }
