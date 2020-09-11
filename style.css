@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Komika';
+    src: url('font/Komika.eot') format('eot'),
+        url('font/Komika.woff') format('woff'),
+        url('font/Komika.svg') format('svg'),
+        url('font/Komika.ttf') format('truetype');
+}
+
+*
+{
+    font-family: Arial, "Arial black", Georgia, Komika, "Times New Roman", serif;
+}
+
+.liste
+{
+    color: red;
+    /*font-size: 1em;*/
+    font-weight: bold;
+}
+
+h2
+{
+  color: blue;
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+}
+
+.nul
+{
+    color: pink;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.imgfloat
+{
+    float: left;
+}
+
+.clear
+{
+    clear: both;
+}
