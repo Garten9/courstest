@@ -18,6 +18,12 @@
     font-weight: bold;
 }
 
+p:hover
+{
+    background-color: yellow;
+    color: green;
+}
+
 h2
 {
   color: blue;
@@ -62,6 +68,11 @@ img
     box-shadow: 50px 10px 20px maroon;
 }
 
+figure
+{
+    text-align: center;
+}
+
 body
 {
     background: url('images/champi.gif') fixed no-repeat top right,url(images/gandalf.gif) fixed;
@@ -73,4 +84,20 @@ body
     font-size: 1.5em;
     border: 20px #44A3F5 inset;
     border-radius: 50px;
+}
+
+ul:active
+{
+    background-color: pink;
+}
+
+a:focus /* Quand le visiteur sélectionne le lien */
+{
+    background-color: #FFCC66;
+    border: 20px #FFCC66 dashed ;
+}
+
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+    color: #AAA; /* Appliquer une couleur grise */
 }
