@@ -33,6 +33,9 @@ h2
   background-color:rgba(240,96,204,0.9);
   border: 8px #FF0000 ridge;
   text-shadow: 5px 5px 5px green;
+  width: 50%;
+  min-width: 350px;
+  margin: auto; /*permet de centrer les blocs (obligation de specoififer une largeur*/
   /*background-image: url(images/gandalf.gif);*/
 }
 
@@ -57,11 +60,14 @@ h2
     clear: both;
 }
 
-ul
+.list
 {
     border: 8px #44F54A dashed;
     border-radius: 40px;
     width: 50%;
+    min-width: 400px;
+    padding: 12px; /*marges interieur entre le text et le cadre*/
+    padding-left: 30px;
 }
 
 li
@@ -89,6 +95,7 @@ body
     font-size: 1.5em;
     border: 20px #44A3F5 inset;
     border-radius: 50px;
+    padding: 20px;
 }
 
 ul:active
@@ -105,4 +112,36 @@ a:focus /* Quand le visiteur sélectionne le lien */
 a:visited /* Quand le visiteur a déjà vu la page concernée */
 {
     color: #AAA; /* Appliquer une couleur grise */
+}
+
+#conteneur
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    border: 1px black dashed
+}
+
+header
+{
+    border: 1px black dashed
+
+}
+
+nav
+{
+    border: 8px #44F54A dashed;
+    border-radius: 40px;
+    width: 20%;
+    min-width: 200px;
+    padding: 12px; /*marges interieur entre le text et le cadre*/
+    padding-left: 30px;
+}
+
+#conteneur2
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
 }
