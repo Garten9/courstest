@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Komika';
+    src: url('font/Komika.eot') format('eot'),
+        url('font/Komika.woff') format('woff'),
+        url('font/Komika.svg') format('svg'),
+        url('font/Komika.ttf') format('truetype');
+}
+
+*
+{
+    font-family: Arial, "Arial black", Georgia, Komika, "Times New Roman", serif;
+}
+
+.liste
+{
+    color: red;
+    /*font-size: 1em;*/
+    font-weight: bold;
+}
+
+p:hover, ul:hover
+{
+    background-color: yellow;
+    color: green;
+}
+
+h2
+{
+  color: blue;
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+  background-color:rgba(240,96,204,0.9);
+  border: 8px #FF0000 ridge;
+  text-shadow: 5px 5px 5px green;
+  /*background-image: url(images/gandalf.gif);*/
+}
+
+.nul
+{
+    color: rgb(240,96,204);
+    font-size: 5em;
+    font-weight: bold;
+    background-color: #F59644;
+    opacity: 0.9;
+    border-bottom: 10px blue double;
+
+}
+
+.imgfloat
+{
+    float: left;
+}
+
+.clear
+{
+    clear: both;
+}
+
+ul
+{
+    border: 8px #44F54A dashed;
+    border-radius: 40px;
+    width: 50%;
+}
+
+li
+{text-align: right;
+}
+
+img
+{
+    box-shadow: 50px 10px 20px maroon;
+}
+
+figure
+{
+    text-align: center;
+}
+
+body
+{
+    background: url('images/champi.gif') fixed no-repeat top right,url(images/gandalf.gif) fixed;
+    /*background-image: url(images/gandalf.gif);*/
+    /*background-attachment: fixed;*/
+    /*background: url(images/gandalf.gif) fixed;*/
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    border: 20px #44A3F5 inset;
+    border-radius: 50px;
+}
+
+ul:active
+{
+    background-color: pink;
+}
+
+a:focus /* Quand le visiteur sélectionne le lien */
+{
+    background-color: #FFCC66;
+    border: 20px #FFCC66 dashed ;
+}
+
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+    color: #AAA; /* Appliquer une couleur grise */
+}
