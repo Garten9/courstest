@@ -72,6 +72,8 @@
 #comp ul
 {
     margin: auto;
+    list-style-image: url('images/champi_mini.jpg');
+    padding-left: 50px;
 }
 
 #form
@@ -139,7 +141,9 @@ h2
 }
 
 li
-{text-align: left;
+{
+    text-align: left;
+    padding-left: 20px;
 }
 
 img
