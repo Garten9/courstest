@@ -8,7 +8,75 @@
 
 *
 {
-    font-family: Arial, "Arial black", Georgia, Komika, "Times New Roman", serif;
+    font-family: Komika, Arial, "Arial black", Georgia, Komika, "Times New Roman", serif;
+}
+
+#lisere
+{
+    background: url('images/champi.gif');
+    width : 350px;
+    height: 800px;
+    border-radius: 10px;
+    min-width: 350px;
+}
+
+#page
+{
+    display: flex;
+}
+
+#pres
+{
+    text-align: center;
+}
+
+#conteneur
+{
+    display: flex;
+    justify-content: space-between;
+    border: 1px black dashed
+}
+
+#conteneur figure
+{
+    padding-right: 50px;
+}
+
+#text
+{
+    padding-left: 20px;
+}
+
+#conteneur h1
+{
+    padding-top: 50px;
+}
+
+#content
+{
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+#exp
+{
+    width: 33%;
+}
+
+#comp
+{
+    width: 33%
+}
+
+#comp ul
+{
+    margin: auto;
+}
+
+#form
+{
+    width: 34%;
 }
 
 .liste
@@ -42,7 +110,7 @@ h2
 .nul
 {
     color: rgb(240,96,204);
-    font-size: 5em;
+    font-size: 2em;
     font-weight: bold;
     background-color: #F59644;
     opacity: 0.9;
@@ -71,7 +139,7 @@ h2
 }
 
 li
-{text-align: right;
+{text-align: left;
 }
 
 img
@@ -86,7 +154,7 @@ figure
 
 body
 {
-    background: url('images/champi.gif') fixed no-repeat top right,url(images/gandalf.gif) fixed;
+    background: url(images/gandalf.gif) fixed;
     /*background-image: url(images/gandalf.gif);*/
     /*background-attachment: fixed;*/
     /*background: url(images/gandalf.gif) fixed;*/
@@ -114,13 +182,7 @@ a:visited /* Quand le visiteur a déjà vu la page concernée */
     color: #AAA; /* Appliquer une couleur grise */
 }
 
-#conteneur
-{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    border: 1px black dashed
-}
+
 
 header
 {
@@ -138,10 +200,4 @@ nav
     padding-left: 30px;
 }
 
-#conteneur2
-{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
 
-}
