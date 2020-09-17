@@ -8,7 +8,11 @@
 </head>
 
 
+
+
 <body>
+    <audio src="music/astronomia.mp3" autoplay preload="auto" controls loop></audio>
+    <video src="video/eao.mp4" controls autoplay width="400"></video>
     <div id="page">
         <div id="lisere"></div>
 
@@ -53,22 +57,30 @@
 
                 <section id="comp">
                     <h2>mes compétences</h2>
-                    <!-- <p> -->
-                        <ul class="list">
-                            <li>chauve</li>
-                            <li>caca qui sent bon</li>
+
+                    <ul class="list">
+                        <li>chauve</li>
+                        <li>caca qui sent bon</li>
                         <li>chanter faux</li>
                         <li>crie tres bien</li>
                         <li>thomas qui fait du café ?</li>
                         <li>ouverture automatique de portail</li>
                     </ul>
-                    <!-- </p> -->
+
                 </section>
 
                 <section id="form">
                     <h2>ma formation</h2>
                     <p class="liste"><img src="images/chien_mini.jpg" class="imgfloat" alt="image qui flotte"> je suis pas trop formé, c pour ça je suis un peu nul; </p>
                     <p class="clear"> trou de pine </p>
+
+                    <form method="post" action="traitement.php">
+                        <p>
+                            <label for="pseudo">Votre pseudo :</label>
+                            <input type="text" name="pseudo" id="pseudo" placeholder="Ex : Zozor" size="30" maxlength="10" />
+                        </p>
+                    </form>
+
                 </section>
             </div>
 
@@ -77,8 +89,8 @@
     </div>
 
     <footer>
-    Voici le pied de page du cv de burno, vous y retrouverez des contacts et autres frivolerie <br>
-    Coptyright Burno officiel, tous droits réservés votre billet d'avion
+        Voici le pied de page du cv de burno, vous y retrouverez des contacts et autres frivolerie <br>
+        Coptyright Burno officiel, tous droits réservés votre billet d'avion
     </footer>
 
 </body>
